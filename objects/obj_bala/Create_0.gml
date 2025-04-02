@@ -7,7 +7,7 @@ obj_jugador.bala_step = 5
 repeat(500){
 	x += hmove
 	y += vmove
-	if position_meeting(x, y, obj_muro) or x < 0 or y < 0 or x > room_width or y > room_height{
+	if position_meeting(x, y, int_solido) or x < 0 or y < 0 or x > room_width or y > room_height{
 		obj_jugador.bala_x = x
 		obj_jugador.bala_y = y
 		break

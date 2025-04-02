@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"instance_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"instance_create",
+  "parent":{
+    "name":"test_1",
+    "path":"test_1.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_muro",
-  "eventList":[],
+  "%Name":"obj_vision",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_muro",
+  "name":"obj_vision",
   "overriddenProperties":[],
   "parent":{
     "name":"test_1",
     "path":"test_1.yyp",
   },
-  "parentObjectId":{
-    "name":"int_solido",
-    "path":"objects/int_solido/int_solido.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_muro",
-    "path":"sprites/spr_muro/spr_muro.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

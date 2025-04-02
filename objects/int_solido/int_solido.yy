@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_muro",
+  "%Name":"int_solido",
   "eventList":[],
   "managed":true,
-  "name":"obj_muro",
+  "name":"int_solido",
   "overriddenProperties":[],
   "parent":{
     "name":"test_1",
     "path":"test_1.yyp",
   },
-  "parentObjectId":{
-    "name":"int_solido",
-    "path":"objects/int_solido/int_solido.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_muro",
-    "path":"sprites/spr_muro/spr_muro.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

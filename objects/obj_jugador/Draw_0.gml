@@ -8,15 +8,15 @@ if abs(hmove * vmove) > vel{
 	vmove /= sqrt(2)
 }
 //Colición horizontal
-if place_meeting(x + hmove, y, obj_muro){
-	while not place_meeting(x + sign(hmove), y, obj_muro)
+if place_meeting(x + hmove, y, int_solido){
+	while not place_meeting(x + sign(hmove), y, int_solido)
 		x += sign(hmove)
 	hmove = 0
 }
 x += hmove
 //Colición vertical
-if place_meeting(x, y + vmove, obj_muro){
-	while not place_meeting(x, y + sign(vmove), obj_muro)
+if place_meeting(x, y + vmove, int_solido){
+	while not place_meeting(x, y + sign(vmove), int_solido)
 		y += sign(vmove)
 	vmove = 0
 }
@@ -26,7 +26,7 @@ if mouse_check_button(mb_left){
 	step++
 	if step = 8{
 		step = 0
-		instance_create_layer(x, y, "instances", obj_bala)
+		instance_create(x, y, obj_bala)
 	}
 }
 //Dibujar la trayectoria de la bala
