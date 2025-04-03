@@ -12,7 +12,10 @@
     "name":"test_1",
     "path":"test_1.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"int_solido",
+    "path":"objects/int_solido/int_solido.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
