@@ -26,7 +26,7 @@ if mouse_check_button(mb_left){
 	step++
 	if step = 8{
 		step = 0
-		instance_create(x, y, obj_bala, {home : id})
+		disparar(id)
 	}
 }
 //Dibujar la trayectoria de la bala

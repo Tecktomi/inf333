@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"juego",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"juego",
+  "parent":{
+    "name":"test_1",
+    "path":"test_1.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
