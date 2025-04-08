@@ -1,8 +1,0 @@
-{
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[
-    {"name":"Font1","order":3,"path":"fonts/Font1/Font1.yy",},
-    {"name":"funciones_auxiliares","order":2,"path":"scripts/funciones_auxiliares/funciones_auxiliares.yy",},
-    {"name":"funciones_principales","order":1,"path":"scripts/funciones_principales/funciones_principales.yy",},
-  ],
-}
