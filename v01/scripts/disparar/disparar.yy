@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"disparar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"disparar",
+  "parent":{
+    "name":"test_1",
+    "path":"test_1.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
